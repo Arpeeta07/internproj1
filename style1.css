@@ -1,0 +1,145 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+  }
+.body_section{
+    padding : 3% 5% 1%;
+}
+a{
+    text-decoration: none;
+}
+
+  @font-face{
+    font-family: "Lovely Home";
+    src:local('Lovely Home'), 
+    url("Image/LovelyHome-9aBZ.ttf") format('truetype');
+
+ }
+ .logo{
+    font-family: "Lovely Home";
+      font-size: 50px;
+      font-weight: bold;
+      color: #351458;
+}
+.nav_bar{
+  display:flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width:100%;
+
+}
+.nav-lists{
+  display: flex;
+  list-style-type: none;
+}
+.nav-item{  
+    width:100%;
+    margin:0 10px;
+    padding:10px 10px;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+.nav-link-item {
+    font-size:20px;
+    font-weight: bold;
+    color:grey;
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 4px 10px;
+  text-decoration: none;
+}
+.nav-link-item:hover{
+  background-color: orange;
+  text-decoration: none;
+  color:white; 
+}
+.image{
+  height:100%;
+  width:100%;
+}
+.content{
+  line-height:2.5;
+  color:grey;
+}
+.head{
+  text-align: center;
+}
+.image2{
+  width:500px;
+  height:300px;
+}
+.content2{
+  line-height:2.5;
+  color:grey;
+  align-self: right;
+}
+.icon{
+  height:100px;
+  width:100px;
+}
+.datastruct{
+  height:100px;
+  width:300px;
+}
+.wdt_content{
+  line-height: 2.5;
+  color:grey;
+}
+.webimage{
+  width:500px;
+  height:300px;
+}
+.cssicon{
+  height:100px;
+  width:100px;
+  margin-left: 50px;
+}
+.javascripticon{
+  height:100px;
+  width:100px;
+  margin-left: 60px;
+}
+.htmlicon{
+  height:100px;
+  width:100px;
+  margin-left: 25px;
+}
+.content3{
+  color:grey;
+  line-height:2.5;
+}
+.linuximage{
+  width:500px;
+  height:300px;
+}
+.javaimage{
+  width:600px;
+  height:400px;
+  margin-left: 25px;
+  border: 1px solid black;
+}
+.content4{
+  color:grey;
+  line-height: 2.5;
+}
+.javaicon{
+  height:200px;
+  width:200px;
+}
+.javaicon2{
+  height:150px;
+  width:150px;
+  margin-left: 50px;
+}
+.content5{
+  line-height: 2.5;
+  color:grey;
+}
+.osimage{
+  width:500px;
+  height:300px;
+  margin-left: 80px;
+}
+.name{
+  text-align: center;
+}
